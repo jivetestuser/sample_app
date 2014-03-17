@@ -14,10 +14,8 @@ end
 group :development, :test do
   gem 'rspec', '~>2.10.0'
   gem 'rspec-rails', '~>2.10.0'
-end
-
-group :test do
-  gem 'spork'
+  gem 'spork', '~> 1.0rc3'
+  gem 'webrat', '~> 0.7.3'
 end
 
 # Use SCSS for stylesheets
