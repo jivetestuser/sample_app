@@ -16,6 +16,7 @@ group :development, :test do
   gem 'rspec-rails', '~>2.10.0'
   gem 'spork', '~> 1.0rc3'
   gem 'webrat', '~> 0.7.3'
+  gem 'annotate', ">=2.6.0"
 end
 
 # Use SCSS for stylesheets
